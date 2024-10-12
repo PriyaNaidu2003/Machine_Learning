@@ -5,22 +5,22 @@ This project aims to develop a web application that predicts whether a breast ca
 Key Features:
 
 
->>Model: Logistic Regression for binary classification.
+1.Model: Logistic Regression for binary classification.
 
->>Dataset: Used a publicly available breast cancer dataset with features such as radius, texture, and area.
+2.Dataset: Used a publicly available breast cancer dataset with features such as radius, texture, and area.
 
 Technologies:
 
 
->>Python, Flask for the web framework.
+1.Python, Flask for the web framework.
 
->>Pandas for data manipulation.
+2.Pandas for data manipulation.
 
->>scikit-learn for model training and evaluation.
+3.scikit-learn for model training and evaluation.
 
->>gdown for downloading the dataset from Google Drive.
+4.gdown for downloading the dataset from Google Drive.
 
->>pickle for saving and loading the trained model and scaler.
+5.pickle for saving and loading the trained model and scaler.
 
 
 Prediction Interface: A simple HTML form allows users to enter the tumor's characteristics, and the model returns a prediction of either "Benign" or "Malignant."
@@ -29,10 +29,10 @@ Prediction Interface: A simple HTML form allows users to enter the tumor's chara
 How it Works:
 
 
->>The dataset is downloaded from Google Drive and preprocessed.
+1.The dataset is downloaded from Google Drive and preprocessed.
 
->>The Logistic Regression model is trained on the dataset.
+2.The Logistic Regression model is trained on the dataset.
 
->>A web application built using Flask allows users to input the tumor's feature values.
+3.A web application built using Flask allows users to input the tumor's feature values.
 
->>The model predicts whether the tumor is malignant or benign based on the entered values.
+4.The model predicts whether the tumor is malignant or benign based on the entered values.
